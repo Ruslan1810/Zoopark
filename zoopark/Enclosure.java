@@ -10,6 +10,8 @@ public class Enclosure {
 
     ArrayList<Herbivores> arrHerb = new ArrayList();
     ArrayList<Carmivorous> arrCarm = new ArrayList();
+    
+    
 
     void addAnimalHerbivores(Herbivores h) {
         if (countHerbivores < limit) {

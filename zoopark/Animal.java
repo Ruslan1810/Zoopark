@@ -42,9 +42,9 @@ class Giraffe extends Herbivores {
     @Override
     void eat(String f) {
             if (food.get(1).name.equals(f)) {
-                System.out.println("Я ем траву");
+                System.out.println("Я " + name + " и я ем траву");
             }
-            else{System.out.println("Я не ем эту гадость");}
+            else{System.out.println("Я " + name + " и я не ем эту гадость");}
         
     }
 
@@ -60,9 +60,9 @@ class Lemur extends Herbivores {
     @Override
     void eat(String f) {
         if (food.get(1).name.equals(f)) {
-                System.out.println("Я ем траву");
+                System.out.println("Я " + name + " и я ем траву");
             }
-            else{System.out.println("Я не ем эту гадость");}
+            else{System.out.println("Я " + name + " и я не ем эту гадость");}
     }
 
 }
@@ -86,9 +86,9 @@ class Lion extends Carmivorous {
     @Override
     void eat(String f) {
             if (food.get(0).name.equals(f)) {
-                System.out.println("Я ем мясо");
+                System.out.println("Я " + name + " и я ем мясо");
             }
-            else{System.out.println("Я не ем эту гадость");}
+            else{System.out.println("Я " + name + " и я не ем эту гадость");}
         
     }
 
@@ -104,9 +104,9 @@ class Tiger extends Carmivorous {
     @Override
     void eat(String f) {
             if (food.get(0).name.equals(f)) {
-                System.out.println("Я ем мясо");
+                System.out.println("Я " + name + " и я ем мясо");
             }
-            else{System.out.println("Я не ем эту гадость");}
+            else{System.out.println("Я " + name + " и я не ем эту гадость");}
         
     }
 
